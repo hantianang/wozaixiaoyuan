@@ -7,7 +7,7 @@ ios quantumult x，我在校园自动打卡，进入小程序自动获取token�
 [task_local]
 1 0,11,17 * * * daka.js, tag=自动打卡, enabled=true
 [rewrite_local]
-^https:\/\/student\.wozaixiaoyuan\.com\/home\.json url script-request-header daka.js
+^https:\/\/student\.wozaixiaoyuan\.com\/home\.json url script-request-header https://raw.githubusercontent.com/hantianang/wozaixiaoyuan/main/daka.js
 hostname = student.wozaixiaoyuan.com
 
 #晚点名签到，依赖daka.js获取token
@@ -16,9 +16,9 @@ hostname = student.wozaixiaoyuan.com
 
 #模拟假条列表
 [rewrite_local]
-^https://student\.wozaixiaoyuan\.com/leave2/getList\.json url script-response-body list4leave.js
+^https://student\.wozaixiaoyuan\.com/leave2/getList\.json url script-response-body https://raw.githubusercontent.com/hantianang/wozaixiaoyuan/main/list4leave.js
 
 #模拟假条详情
 [rewrite_local]
-^https://student\.wozaixiaoyuan\.com/leave2/getLeave\.json url script-response-body ask4leave.js
+^https://student\.wozaixiaoyuan\.com/leave2/getLeave\.json url script-response-body https://raw.githubusercontent.com/hantianang/wozaixiaoyuan/main/list4leave.js
 ```
