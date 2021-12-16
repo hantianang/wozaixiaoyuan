@@ -35,7 +35,7 @@ function Sign(){
   }
 
   //const body =  `answers=["0"]&seq=`+ seq + `&temperature=温度&userId=&latitude=经度&longitude=纬度&country=中国&city=XX市&district=XX区&province=XX省&township=XX街道&street=XXXXX地址&myArea=`
-  const body = `自行抓包替换`
+  const body = `answers=%5B%220%22%2C%220%22%2C%221%22%5D&latitude=34.01085662841797&longitude=108.75390625&country=%E4%B8%AD%E5%9B%BD&city=%E8%A5%BF%E5%AE%89%E5%B8%82&district=%E9%84%A0%E9%82%91%E5%8C%BA&province=%E9%99%95%E8%A5%BF%E7%9C%81&township=%E8%8D%89%E5%A0%82%E8%A1%97%E9%81%93&street=%E4%B8%AD%E5%BF%83%E8%A1%97&areacode=610118"`
   
   const myRequest = {
       url: url,
