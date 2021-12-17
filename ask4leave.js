@@ -50,21 +50,21 @@ function prepareApproveTime(time){
 
 //用户信息
 //学生id
-studentId = "213231342334566589"
+studentId = "389388391235981312"
 //姓名
-studentName = "陈少一"
+studentName = "韩天昂"
 //校区
-location = "[\"广州校区\"]"
+location = "[\"草堂校区\"]"
 //紧急联系人
-tel = "18982192888"
+tel = "15802960111"
 //请假理由
-reason = "外出实习"
+reason = "回家"
 //外出地点
-route = "金融城"
+route = "西安建筑科技大学雁塔校区"
 //用户头像 默认随机
 userHead = "http://lorempixel.com/200/200/"
 //请假类型 事假 病假 实习 科研 出差 回家
-type = "事假"
+type = "回家"
 //是否离校 1是 0否
 out = 1
 //假条状态 2应该是假期中吧，除了2其他值界面都一样
@@ -72,13 +72,13 @@ state = 2
 
 //审批信息
 //辅导员姓名
-approveName = "李少洁"
+approveName = "陈雷"
 //辅导员学院
-approveAcademy = "金融学院"
+approveAcademy = "管理学院"
 //辅导员头像 默认随机
-approveHead = "http://lorempixel.com/400/400/"
+approveHead = "https://jwoss1.wozaixiaoyuan.com/basicinfo/20210725/19/339196861707464704.jpg"
 //审批理由
-approveReason = "办完事马上回校，不得在外逗留"
+approveReason = "审批通过"
 //审核状态 3拒绝 2通过 1审批中
 approveState = 2
 
