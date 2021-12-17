@@ -95,7 +95,7 @@ if(start==="" && end === ""){
     time.setHours(Math.max(0,(nowHour - 1)))
     start = getFormatTime(time,1)
     //结束时间
-    time.setHours(Math.min(23,(nowHour+3)))
+    time.setHours(Math.min(23,(nowHour + 12)))
     end = getFormatTime(time,1)
 }
 //批假时间 前一天随机时刻
